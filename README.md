@@ -1,10 +1,8 @@
 ## 1. Propósito del proyecto
 
-El propósito de este proyecto es realizar la preparación y consolidación de diferentes archivos de información relacionados con las ventas de productos.
+El propósito de este proyecto es realizar la preparación y consolidación de diferentes archivos de información relacionados con las ventas de productos. Mediante Python y la biblioteca Pandas, se cargan cinco tablas de datos, se revisa su estructura y calidad, se identifican valores nulos y registros duplicados, y posteriormente se integran mediante operaciones de unión.
 
-Mediante Python y la biblioteca Pandas, se cargan cinco tablas de datos, se revisa su estructura y calidad, se identifican valores nulos y registros duplicados, y posteriormente se integran mediante operaciones de unión (*merge*).
-
-Como resultado, se obtiene un solo DataFrame con información relacionada con las ventas, productos, categorías, segmentos y calendario. Finalmente, se genera un resumen de los principales indicadores de ventas y se exporta la información en formatos Excel y CSV para facilitar su consulta y utilización en etapas posteriores.
+Como resultado, se obtiene un solo DataFrame con información relacionada con las ventas, productos, categorías, segmentos y calendario. Finalmente, se genera un archivo de los principales indicadores de ventas y se exporta la información en formatos Excel o CSV para facilitar su consulta y utilización en etapas posteriores.
 
 ## 2. Datos utilizados
 
@@ -69,7 +67,7 @@ Después de integrar las tablas, se realizaron las siguientes actividades:
 
 Estas actividades permitieron verificar la estructura y mejorar la consistencia de la información consolidada.
 
-### 4.5. Generación del resumen de ventas
+### 4.5. Generación del resumen 
 
 Se creó una copia del DataFrame consolidado mediante `copy()`, con el objetivo de conservar la información original y realizar los cálculos sobre una copia.
 
@@ -109,11 +107,10 @@ Además, se generaron dos archivos de salida, uno en formato Excel y otro en CSV
 
 El proyecto permitió integrar diferentes fuentes de información en una sola estructura, facilitando la consulta de los datos relacionados con las ventas y sus características.
 
-La exploración inicial permitió conocer la estructura de los archivos, revisar los tipos de datos, identificar valores nulos y comprobar la existencia de registros duplicados. Posteriormente, las uniones mediante `merge()` permitieron relacionar la información de las tablas de ventas, productos, categorías, segmentos y calendario.
+La exploración inicial permitió conocer la estructura de los archivos, revisar los tipos de datos, identificar valores nulos y comprobar la existencia de registros duplicados. Posteriormente, las uniones que se permitio relacionar la información de las tablas de ventas, productos, categorías, segmentos y calendario.
 
 También se realizaron ajustes en los tipos de datos y en los valores de texto para mejorar la consistencia de la información. Finalmente, se calcularon indicadores generales de ventas y se exportó el resultado en formatos CSV y Excel.
 
-En conclusión, este trabajo constituye una etapa de preparación, limpieza e integración de datos que permite contar con una base consolidada para su consulta o para desarrollar posteriormente otros análisis.
 
 ## 7. Estructura general del proyecto
 
