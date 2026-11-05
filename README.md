@@ -124,9 +124,9 @@ Proyecto/
 ├── DIM_PRODUCT (1).xlsx
 ├── DIM_SEGMENT (1).xlsx
 ├── FACT_SALES (1).csv
+├── Codigo.ipynb
 ├── Productos.xlsx
-├── Productos.csv
-└── Codigo.ipynb
+└── Productos.csv
 ```
 
 **Nota:** Los archivos de salida se generan al ejecutar el código y se guardan en el directorio de trabajo de Python.
